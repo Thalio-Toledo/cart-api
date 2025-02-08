@@ -21,6 +21,8 @@ builder.Services.AddDbContext<DataContext>(config =>
     config.UseSqlite("Data Source=Data\\CartWeb.db");
 });
 
+builder.Services.AddMemoryCache();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

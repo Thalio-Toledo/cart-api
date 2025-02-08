@@ -158,3 +158,4 @@ C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\runtimes\win-x8
 C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Thalio\Documents\Projects\carrinho-api\obj\Debug\net8.0\carrinho-api.sourcelink.json

@@ -2,6 +2,7 @@
 using carrinho_api.Entities;
 using carrinho_api.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 using System.Net;
 
 namespace carrinho_api.Controllers
@@ -9,16 +10,33 @@ namespace carrinho_api.Controllers
     public class WitnessController : BaseController
     {
         private WitnessService _witnessService;
+        private readonly IMemoryCache _cache;
+        private const string CacheWitnessKey = "CacheWitness";
 
-        public WitnessController(WitnessService witnessService)
+        public WitnessController(WitnessService witnessService, IMemoryCache cache)
         {
             _witnessService = witnessService;
+            _cache = cache;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var witnesses = await _witnessService.GetAll();
+            if(!_cache.TryGetValue(CacheWitnessKey, out IEnumerable<WitnessDTO> witnesses))
+            {
+                witnesses = await _witnessService.GetAll();
+
+                if (witnesses is not null && witnesses.Any()) 
+                {
+                    var cacheOptions = new MemoryCacheEntryOptions
+                    {
+                        AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30),
+                        SlidingExpiration = TimeSpan.FromSeconds(15),
+                        Priority = CacheItemPriority.High
+                    };
+                    _cache.Set(CacheWitnessKey, witnesses, cacheOptions);
+                }
+            }
             return Ok(witnesses);
         }
 
