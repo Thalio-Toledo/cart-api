@@ -36,10 +36,11 @@ namespace carrinho_api.Services
             return witnessesDTO;
         }
 
-        public async Task<Witness> FindById(int id)
+        public async Task<WitnessDTO> FindById(int id)
         {
             var witness = await _context.Witness.FirstOrDefaultAsync(w => w.WitnessId == id);
-            return witness;
+            var witnessDTO = _mapper.Map<WitnessDTO>(witness);
+            return witnessDTO;
         }
 
         public async Task<bool> Create(WitnessCreateDTO witnessDTO)

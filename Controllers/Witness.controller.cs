@@ -43,8 +43,25 @@ namespace carrinho_api.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> FindById(int id)
         {
-            var witnesses = await _witnessService.FindById(id);
-            return Ok(witnesses);
+            var cacheWitnessKey = $"CacheWitness_{id}";
+
+            if (!_cache.TryGetValue(cacheWitnessKey, out WitnessDTO witness))
+            {
+                witness = await _witnessService.FindById(id);
+
+                if (witness is not null)
+                {
+                    var cacheOptions = new MemoryCacheEntryOptions
+                    {
+                        AbsoluteExpirationRelativeToNow = TimeSpan.FromSeconds(30),
+                        SlidingExpiration = TimeSpan.FromSeconds(15),
+                        Priority = CacheItemPriority.High
+                    };
+                    _cache.Set(cacheWitnessKey, witness, cacheOptions);
+                }
+            }
+
+            return Ok(witness);
         }
 
         [ProducesResponseType<bool>((int)HttpStatusCode.Created)]
