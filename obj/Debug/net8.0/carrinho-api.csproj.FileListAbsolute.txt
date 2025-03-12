@@ -159,3 +159,9 @@ C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\runtimes\browse
 C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Thalio\Documents\Projects\carrinho-api\obj\Debug\net8.0\carrinho-api.sourcelink.json
+C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\System.Web.Http.dll
+C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Thalio\Documents\Projects\carrinho-api\bin\Debug\net8.0\StackExchange.Redis.dll

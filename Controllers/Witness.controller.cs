@@ -4,6 +4,7 @@ using carrinho_api.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 using System.Net;
+using System.Xml.Linq;
 
 namespace carrinho_api.Controllers
 {
@@ -17,6 +18,27 @@ namespace carrinho_api.Controllers
         {
             _witnessService = witnessService;
             _cache = cache;
+        }
+
+
+        [HttpGet("stream")]
+        public async IAsyncEnumerable<object> Get()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                await Task.Delay(100);
+                yield return new { Id = i };
+            }
+        }
+
+        [HttpGet("streamNum")]
+        public async IAsyncEnumerable<int> GetNumbers()
+        {
+            for (var i = 1; i <= 100; i++)
+            {
+                yield return i;
+                await Task.Delay(100);
+            }
         }
 
         [HttpGet]

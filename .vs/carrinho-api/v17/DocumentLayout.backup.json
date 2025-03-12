@@ -3,16 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|c:\\users\\thalio\\documents\\projects\\carrinho-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|c:\\users\\thalio\\documents\\projects\\carrinho-api\\controllers\\local.controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|solutionrelative:controllers\\local.controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|c:\\users\\thalio\\documents\\projects\\carrinho-api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|c:\\users\\thalio\\documents\\projects\\carrinho-api\\controllers\\witness.controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|solutionrelative:controllers\\witness.controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|c:\\users\\thalio\\documents\\projects\\carrinho-api\\services\\witness.service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|solutionrelative:services\\witness.service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|c:\\users\\thalio\\documents\\projects\\carrinho-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|c:\\users\\thalio\\documents\\projects\\carrinho-api\\aplicationextensions\\nobufferpolicyselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|solutionrelative:aplicationextensions\\nobufferpolicyselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|c:\\users\\thalio\\documents\\projects\\carrinho-api\\caching\\redisconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|solutionrelative:caching\\redisconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|c:\\users\\thalio\\documents\\projects\\carrinho-api\\aplicationextensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|solutionrelative:aplicationextensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|c:\\users\\thalio\\documents\\projects\\carrinho-api\\carrinho-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|solutionrelative:carrinho-api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|c:\\users\\thalio\\documents\\projects\\carrinho-api\\dtos\\witness.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|solutionrelative:dtos\\witness.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|c:\\users\\thalio\\documents\\projects\\carrinho-api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F79030BF-0AC9-4672-AFA9-7F1D53E04238}|carrinho-api.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +66,124 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Local.controller.cs",
+              "DocumentMoniker": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\Controllers\\Local.controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Local.controller.cs",
+              "ToolTip": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\Controllers\\Local.controller.cs*",
+              "RelativeToolTip": "Controllers\\Local.controller.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:20:47.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-12T18:21:42.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RedisConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\Caching\\RedisConfig.cs",
+              "RelativeDocumentMoniker": "Caching\\RedisConfig.cs",
+              "ToolTip": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\Caching\\RedisConfig.cs",
+              "RelativeToolTip": "Caching\\RedisConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T18:19:45.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NoBufferPolicySelector.cs",
+              "DocumentMoniker": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\AplicationExtensions\\NoBufferPolicySelector.cs",
+              "RelativeDocumentMoniker": "AplicationExtensions\\NoBufferPolicySelector.cs",
+              "ToolTip": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\AplicationExtensions\\NoBufferPolicySelector.cs",
+              "RelativeToolTip": "AplicationExtensions\\NoBufferPolicySelector.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:47:16.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServicesExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\AplicationExtensions\\ServicesExtensions.cs",
+              "RelativeDocumentMoniker": "AplicationExtensions\\ServicesExtensions.cs",
+              "ToolTip": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\AplicationExtensions\\ServicesExtensions.cs",
+              "RelativeToolTip": "AplicationExtensions\\ServicesExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T17:46:50.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "carrinho-api.csproj",
+              "DocumentMoniker": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\carrinho-api.csproj",
+              "RelativeDocumentMoniker": "carrinho-api.csproj",
+              "ToolTip": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\carrinho-api.csproj",
+              "RelativeToolTip": "carrinho-api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-14T17:39:03.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Witness.service.cs",
+              "DocumentMoniker": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\Services\\Witness.service.cs",
+              "RelativeDocumentMoniker": "Services\\Witness.service.cs",
+              "ToolTip": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\Services\\Witness.service.cs",
+              "RelativeToolTip": "Services\\Witness.service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T16:38:50.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAADAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2025-02-08T16:26:24.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Witness.controller.cs",
               "DocumentMoniker": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\Controllers\\Witness.controller.cs",
               "RelativeDocumentMoniker": "Controllers\\Witness.controller.cs",
               "ToolTip": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\Controllers\\Witness.controller.cs",
               "RelativeToolTip": "Controllers\\Witness.controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T15:32:17.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Witness.dto.cs",
               "DocumentMoniker": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\DTOs\\Witness.dto.cs",
               "RelativeDocumentMoniker": "DTOs\\Witness.dto.cs",
@@ -60,13 +196,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Thalio\\Documents\\Projects\\carrinho-api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T15:34:27.584Z",
               "EditorCaption": ""

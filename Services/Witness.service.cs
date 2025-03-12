@@ -18,6 +18,15 @@ namespace carrinho_api.Services
             _mapper = mapper;
         }
 
+
+        public async IAsyncEnumerable<int> GetData()
+        {
+            for (var i = 1; i <= 10; i++)
+            {
+                await Task.Delay(1000);
+                yield return i;
+            }
+        }
         public async Task<IEnumerable<WitnessDTO>> GetAll()
         {
             var witnesses = await _context.Witness
@@ -63,7 +72,7 @@ namespace carrinho_api.Services
 
         public async Task<bool> Delete(int id)
         {
-            var witness = await FindById(id);
+            var witness = await _context.Witness.FirstOrDefaultAsync(w => w.WitnessId == id);
             _context.Witness.Remove(witness);
             return _context.SaveChanges() > 0;
         }
